@@ -1,0 +1,42 @@
+<!--navbar-->
+.navbar-inverse .navbar-header:hover{
+	background-color: red;
+}
+body{
+	-webkit-font-smoothing:antialised;
+	text-rendering:optimizelegibility;
+}
+#MyPhoto{
+	width: 200px;
+}
+#MyNavbar{
+	padding: 13px 15px;
+}
+<!-- typography-->
+
+#ContentItem {
+	margin-top: 0;
+}
+<!--media Queries-->
+
+@media (max-width: 480px){
+	#AboutMe {
+		font-size: 8px;
+	}
+}
+@media (max-width: 768px){
+	.{
+		font-size: 12px;
+	}
+	#AboutMe{
+		font-size: 12px;
+	}
+	#profileheader .h1{
+		font-size: 12px;	
+	}
+}
+@media (min-width: 1200px){
+	#AboutMe{
+		font-size: 25px;
+	}
+}
